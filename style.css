@@ -103,7 +103,8 @@ input, select, textarea {
   color: var(--text);
 }
 textarea { resize: vertical; }
-.form-note { color: var(--muted); font-size: 12px; margin-bottom: 0; }
+.form-status p { margin-bottom: 0; font-size: 14px; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
 .contact-card { position: sticky; top: 96px; }
 .contact-details { margin-top: 24px; border-top: 1px solid var(--border); padding-top: 18px; font-size: 14px; }
 .site-footer { padding: 52px 0; background: var(--black); color: #fff; }
